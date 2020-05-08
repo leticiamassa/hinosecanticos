@@ -104,7 +104,7 @@ body {
 	text-decoration: none;
 	margin-bottom: 0.3em;
 	font-size: 1.2rem;
-	border-radius: 10%;
+	border-radius: 4px;
 /*
 	border: 1px solid var(--cor-indice-alfabeto);
 	color: var(--cor-indice-alfabeto);
@@ -141,7 +141,7 @@ body {
 	text-decoration: none;
 	margin-bottom: 0.3em;
 	font-size: 1.2rem;
-	border-radius: 10%;
+	border-radius: 4px;
 	border: 1px solid var(--cor-indice-numeros);
 	color: white;
 	background-color: var(--cor-indice-numeros);
@@ -195,13 +195,15 @@ body {
 pre {
 	text-align: left;
 	white-space: pre-wrap;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 /*	border: 1px solid var(--cor-numero-titulo);*/
 	padding: 0.2em 0.6em;
-	font-family: 'Oxygen Mono', monospace;
-	font-size: 12px;
+/*	font-family: 'Oxygen Mono', monospace;*/
+	font-size: 14px;
 	background-color: transparent;
 /*	border-radius: 5px;*/
+	
+    font-family: 'Noto Serif JP', serif;
 }
 
 .pre-format {
@@ -222,11 +224,10 @@ a:link {
 
 .hinos--subtitulo {
 	text-align: left;
-	color: grey;
+	color: grey; 
 	margin-top: 0.5em;
-	font-size: 0.8rem;
-	font-family: monospace;
 	font-style: italic;
+	font-size: 10px;
 }
 
 .categoria--outline {
@@ -250,16 +251,17 @@ a:link {
 
 .btn--voltar {
 	display: inline-block;
-	color: grey;
-	border: 1px solid grey;
+	color: #5C9585;
+	border: 1px solid #5C9585;
 	text-decoration: none;
-	padding: 0.1em 1em;
+	padding: 0.3em 1.5em;
 	border-radius: 7px;
-	margin-bottom: 1em;
+	margin: 2em 0;
+	font-size: 14px;
 }
 
 .btn--voltar:hover {
-	background-color: grey;
+	background-color: #5C9585;
 	opacity: 0.7;
 	color: white;
 }
@@ -368,6 +370,8 @@ body {
 	padding-right: 1.4rem;
 	color: #233A48;
 	letter-spacing: 0.05em;
+	width: 70%;
+	margin-left: auto;
 }
 
 #nav ul li a:hover {
@@ -405,4 +409,8 @@ body {
 	content: "\2261";
 	font-size: 1.3em;
 	color: white;
+}
+
+.nav--pagina-atual {
+	background-image: linear-gradient(to left, #E5E3C3,var(--cor-fundo));
 }
