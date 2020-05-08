@@ -1,0 +1,408 @@
+:root {
+	
+	--cor-principal: #233A48;
+	--cor-secundaria: #5C9585;
+	--cor-indice-alfabeto: #5C9585;
+	--cor-indice-numeros: #5C9585;
+	--cor-numero-titulo: #233A48;
+	--cor-fundo: rgba(0, 0, 0, 0.01);
+	--cor-linha-secundaria-tabela: #ededed;
+	--cor-btn-outline: #5C9585;
+}
+
+* {
+	box-sizing: border-box
+}
+
+body {
+	margin: 0;
+/*	font-family: 'Overlock', cursive;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background-color: var(--cor-fundo);
+}
+
+.main_container {
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.hero {
+	background-color: var(--cor-principal);
+	padding: 1em;
+	line-height: 1.3em;
+	font-size: 2.3rem;
+	color: white;
+	letter-spacing: 3px;
+}
+
+.main_container--text {
+	padding: 2em;
+	margin: auto;
+}
+
+.btn--principal {
+	display: block;
+	width: 100%;
+	padding: 0.6em 0.5em;
+	margin: 0 auto;
+	margin-top: 1.3em;
+	font-size: 1.2rem;
+	color: white;
+	background-color: var(--cor-btn-outline);
+	border: 1px solid var(--cor-btn-outline);
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.btn--outline:hover {
+	background-color: var(--cor-btn-outline);
+	color: white;
+}
+
+.btn--secundario {
+	display: block;
+	width: 90%;
+	padding: 0.4em 0.5em;
+	margin: 0 auto;
+	margin-top: 2.3em;
+	font-size: 1rem;
+	color: var(--cor-btn-outline);
+	background-color: #E5E3C3;
+/*	background-color: var(--cor-btn-outline);*/
+	opacity: 0.8;
+	border-radius: 3px;
+	text-decoration: none;
+	
+}
+
+.main-versiculo {
+	margin: 3em 0 0 0;
+	font-style: italic;
+	color: grey;
+	font-size: 14px;
+}
+
+.container--alfabeto {
+	padding: 1.5em;
+	margin: auto;
+}
+
+.hinos--container {
+	/*	usado também na página Categorias */
+	padding: 1.3em;
+}
+
+.hinos__container--indice {
+	margin: 0 0 2em 0;
+}
+
+.indice--alfabeto {
+	padding: 0.2em 0.5em;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 0.3em;
+	font-size: 1.2rem;
+	border-radius: 10%;
+/*
+	border: 1px solid var(--cor-indice-alfabeto);
+	color: var(--cor-indice-alfabeto);
+*/
+	background-color :var(--cor-indice-alfabeto);
+	color: white;
+	
+	font-size: 1.3rem;
+}
+
+.indice--alfabeto:hover {
+	background-color: var(--cor-indice-alfabeto);
+	color: white;
+}
+
+.indice--alfabeto--desativado {
+	opacity: 0.2;
+}
+
+.indice--alfabeto--desativado:hover {
+/*
+	background-color: white;
+	color: var(--cor-indice-alfabeto);
+	opacity: 0.5;
+*/
+	
+}
+
+
+
+.indice--numeros {
+	padding: 0.2em 0.5em;
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 0.3em;
+	font-size: 1.2rem;
+	border-radius: 10%;
+	border: 1px solid var(--cor-indice-numeros);
+	color: white;
+	background-color: var(--cor-indice-numeros);
+/*	color: var(--cor-indice-numeros);*/
+	font-size: 1.3rem;
+}
+
+.indice--numeros:hover {
+	background-color: var(--cor-indice-numeros);
+	color: white;
+}
+
+.indice--numeros--desativado {
+	opacity: 0.5;
+}
+
+.indice--numeros--desativado:hover {
+	background-color: white;
+	color: var(--cor-indice-numeros);
+	opacity: 0.5;
+}
+
+
+/*#233A48  #436E67  #5C9585  #BED0A6  #E5E3C3*/
+
+.hinos--numero {
+	text-align: left;
+	
+	color: var(--cor-numero-titulo);
+	border-bottom: 2px solid var(--cor-numero-titulo);
+
+	font-size: 1.3rem;
+	display: block;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+
+.hinos--numero-2 {
+	
+	text-align: left;
+	
+	color: var(--cor-numero-titulo);
+	border: 2px solid var(--cor-numero-titulo);
+	border-radius: 4px;
+
+	font-size: 1.3rem;
+	display: block;
+	padding: 0.2em 1em;
+	text-decoration: none;
+}
+pre {
+	text-align: left;
+	white-space: pre-wrap;
+	margin-bottom: 2em;
+/*	border: 1px solid var(--cor-numero-titulo);*/
+	padding: 0.2em 0.6em;
+	font-family: 'Oxygen Mono', monospace;
+	font-size: 12px;
+	background-color: transparent;
+/*	border-radius: 5px;*/
+}
+
+.pre-format {
+
+	background-color: #EAEADC;
+	
+}
+
+.hinos--numero a:visited,
+a:hover,
+a:active,
+a:link {
+	text-decoration: none;
+	/*	color: var(--cor-principal);*/
+}
+
+
+
+.hinos--subtitulo {
+	text-align: left;
+	color: grey;
+	margin-top: 0.5em;
+	font-size: 0.8rem;
+	font-family: monospace;
+	font-style: italic;
+}
+
+.categoria--outline {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid var(--cor-btn-outline);
+	color: var(--cor-btn-outline);
+	padding: 0.5em 0.2em 0.1em 0.2em;
+	text-decoration: none;
+	text-align: left;
+	font-size: 16px;
+
+}
+
+.categoria--outline:hover {
+	color: white;
+	background-color: var(--cor-btn-outline);
+	opacity: 0.8;
+}
+
+.btn--voltar {
+	display: inline-block;
+	color: grey;
+	border: 1px solid grey;
+	text-decoration: none;
+	padding: 0.1em 1em;
+	border-radius: 7px;
+	margin-bottom: 1em;
+}
+
+.btn--voltar:hover {
+	background-color: grey;
+	opacity: 0.7;
+	color: white;
+}
+
+
+/*-------------- tabela --------------- */
+
+.indices--tabela {
+	border-collapse: collapse;
+	width: 97%;
+	text-align: left;
+	margin: 2em auto;
+	font-size: 13px;
+}
+
+.indices--tabela a,
+indices--tabela a:hover,
+indices--tabela a:visited,
+indices--tabela a:active {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.9);
+}
+
+
+.indices--tabela td,
+.indices--tabela th {
+	border: 1px solid #ddd;
+	padding: 0.5em;
+}
+
+.indices--tabela th a,
+indices--tabela th a:visited,
+indices--tabela th a:hover, 
+indices--tabela th a:active {
+	color: white;
+	text-decoration: none;
+}
+
+.tabela--categorias th {
+	letter-spacing: 0.15rem;
+	padding: 0.3em;
+}
+
+.indices--tabela tr:nth-child(even) {
+	background-color: var(--cor-linha-secundaria-tabela);
+}
+
+.indices--tabela td:nth-child(2),
+.indices--tabela th:nth-child(2) {
+	text-align: center;
+	width: 10%;
+}
+
+
+/*
+.indices--tabela tr:hover {
+	background-color: #ddd;
+}
+*/
+
+.indices--tabela th {
+	padding: 0.3em 0.8em;
+	text-align: left;
+	background-color: var(--cor-secundaria);
+	color: white;
+	font-size: 15px;
+}
+
+
+/*-------------- navbar --------------- */
+
+body {
+	-webkit-animation: bugfix infinite 1s;
+/*	 needed for checkbox hack */
+
+}
+
+@-webkit-keyframes bugfix {
+	from {
+		padding: 0;
+	}
+
+	to {
+		padding: 0;
+	}
+}
+/* needed for checkbox hack */
+
+#nav {
+	position: relative;
+}
+
+#nav ul {
+	display: none;
+	width: 100%;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav ul li a {
+	display: block;
+	text-decoration: none;
+	text-align: right;
+	padding: 0.5em;
+	padding-right: 1.4rem;
+	color: #233A48;
+	letter-spacing: 0.05em;
+}
+
+#nav ul li a:hover {
+	opacity: 0.7;
+}
+
+#nav input.trigger {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+#nav input.trigger:checked ~ ul,
+#nav input.trigger:checked ~ ul li ul {
+	display: block !important;
+}
+
+#nav label {
+	position: relative;
+	display: block;
+/*	min-height: 3em;*/
+	padding: 1em;
+	font-size: 1.8rem;
+	margin: 0;
+	cursor: pointer;
+	background: var(--cor-principal);
+	line-height: 2em;
+	color: white;
+}
+
+/* ESSES SÃO OS RISQUINHOS */
+#nav label:after {
+	position: absolute;
+	right: 1.1rem;
+	content: "\2261";
+	font-size: 1.3em;
+	color: white;
+}

@@ -1,0 +1,17 @@
+{
+"short_name": "Hinos e Cânticos",
+/* "name": "Hinos e Cânticos", */
+"background_color": "#3c70a4",
+"description": "Hinos e Cânticos para jovens",
+"icons": [
+    {
+    	"src": "launcher-icon-blue.png",
+    	"sizes": "192x192",
+    	"type": "image/png",
+		"purpose": "any maskable"
+    }
+],
+"start_url": "/index.html",
+"display": "standalone", // makes it not to be a window of chrome
+"orientation": "any"
+}

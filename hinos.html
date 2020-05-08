@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hinos</title>
+	<link rel="stylesheet" href="estilo.css">
+
+	<!--	Google Fonts  	-->
+	<link href="https://fonts.googleapis.com/css2?family=Overlock:wght@700&family=Squada+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	
+	<!--	From old project: trying to make the content to fit the page (LM) 	-->
+	<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=yes" />
+	
+	<!-- Manifesto (adicionar em todas as páginas) -->
+	<link rel="manifest" href="/manifest.json">
+
+
+</head>
+
+<body>
+
+	<div class="main_container">
+
+		<!--	INÍCIO DA NAVBAR -->
+
+		<nav role="navigation" id="nav">
+			<input class="trigger" type="checkbox" id="mainNavButton">
+			<label for="mainNavButton" onclick>Letras e Cifras</label>
+			<ul>
+				<li><a href="index.html">Página inicial</a></li>
+				<!--				<li><a href="hinos.html">Hinos</a></li>-->
+				<li><a href="primeiras_linhas.html">Primeiras linhas</a></li>
+				<li><a href="categorias.html">Categorias</a></li>
+			</ul>
+		</nav>
+
+		<!--	FIM DA NAVBAR -->
+
+		<div class="hinos--container">
+
+			<div class="hinos__container--indice">
+				<a href="#hino001" class="indice--numeros">1</a>
+				<a href="#hino002" class="indice--numeros">2</a>
+				<a href="#hino003" class="indice--numeros">3</a>
+				<a href="#hino004" class="indice--numeros">4</a>
+				<a href="#hino005" class="indice--numeros">5</a>
+				<a href="#hino006" class="indice--numeros">6</a>
+				<a href="#hino007" class="indice--numeros">7</a>
+				<a href="#hino008" class="indice--numeros">8</a>
+				<a href="#hino009" class="indice--numeros">9</a>
+				<a href="#hino010" class="indice--numeros">10</a>
+				<a href="#hino011" class="indice--numeros">11</a>
+				<a href="#hino012" class="indice--numeros">12</a>
+				<a href="#hino013" class="indice--numeros">13</a>
+				<a href="#hino014" class="indice--numeros">14</a>
+				<!--				
+				<a href="#hino015" class="indice--numeros">15</a>
+				<a href="#hino016" class="indice--numeros">16</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">17</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">18</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">19</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">20</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">21</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">22</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">23</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">24</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">25</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">26</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">27</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">28</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">29</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">30</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">31</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">32</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">33</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">34</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">35</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">36</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">37</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">38</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">39</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">40</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">41</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">42</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">43</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">44</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">45</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">46</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">47</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">48</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">49</a>
+				<a href="#" class="indice--numeros indice--numeros--desativado">50</a>
+-->
+			</div>
+			
+
+			<!--
+			SINTAXE DO EMMET PARA CRIAR VÁRIOS HINOS
+			div#hino$$$.hinos--numero{$}+div.hinos--subtitulo+pre#hino$$
+			-->
+
+			<a href="#" id="hino001" class="hinos--numero">1</a>
+			<pre>          C 
+1 Imerso, ó Senhor,
+           Em 
+  Em refrescante amor,
+       F          Dm         G4 - G 
+  Me escondo de anseios terrenais;
+             C 
+  Tão tenro afeto
+            Em 
+  Tu sempre vens me dar.
+       F             Dm          G 
+  Teu amor por mim excede meu querer.
+
+             Am 
+    Nossos momentos
+                   Em 
+    Quão preciosos são!
+        F           Dm        G4 - G 
+    Aproveito agora para Te dizer
+           C 
+    Que Te amo,
+            Em              Dm G        C 
+    Junto a Ti estou; 'té o fim, eu sou Teu.
+
+2 Como O evitarei?
+  Apaixonado estou!
+  Pois, Senhor, provei do Teu imenso amor;
+  Imerso nele estou,
+  Me entrego todo a Ti:
+  Faz de mim alguém segundo teu querer.
+
+3 Tão atraído fui
+  Por Teu intenso amor;
+  O Teu nome é qual unguento sobre mim.
+  Fui cativado
+  Por tudo o que Tu és;
+  Me atrai pra sempre só a Ti buscar!
+		</pre>x
+
+			<a href="#" id="hino002" class="hinos--numero">2</a>
+			<pre>  G    Em                C 
+1 Há momentos que o amor,
+       D             G 
+  Me parece, se esvai;
+           Em           C - D 
+  As horas param, o dia cai;
+  G       Em                    C 
+  'Inda assim, como, eu não sei,
+      D             G 
+  Ele ora então por mim,
+      Em             D 
+  Através dos santos Seus.
+
+    C      D            G     Em 
+    Por um toque Seu de amor, 
+    C    D          G 
+    Pelo som de Sua voz,
+          Em      C 
+    Sussurrando a mim,
+         D             Em 
+    Pela voz dos vasos Seus.
+    C         D7         G 
+    E o mundo não prevaleceu.
+
+2 Cega alma, não sei ver
+  O que o mundo fez a mim;
+  Gelou-me o ser, como viver?
+  Mas à porta Ele vem
+  Pelos santos, que aqui,
+  Co'o Senhor, cuidam de mim!
+</pre>
+
+			<a href="#" id="hino003" class="hinos--numero">3</a>
+			<div class="hinos--subtitulo">João 6:51</div>
+			<pre>A  D         F#m E 
+Eu sou o pão vivo
+A     D    F#m    E 
+o pão vivo que desceu do céu;
+A    D 
+se alguém comer,
+F#m  E          A     D 
+se alguém comer desse pão,
+F#m E       A 
+viverá para sempre.
+
+F#m          D 
+e o pão (e o pão)
+que Eu darei
+A         E 
+é a Minha carne,
+F#m            D 
+Eu darei (Eu darei)
+Eu darei
+A            E 
+pela vida do mundo.
+</pre>
+
+			<a href="#" id="hino004" class="hinos--numero">4</a>
+			<div class="hinos--subtitulo">Efésios 2:22</div>
+			<pre>C                 G 
+No qual todo o edifício, 
+Am        F 
+sendo bem ajustado,
+C        G          Am 
+está crescendo para ser
+   F            C         G - Am - F 
+um templo santo no Senhor;
+
+C              G 
+no qual vós também
+Am           F 
+estais sendo juntamente
+C    G          Am 
+edificados para ser
+F            C               G 
+habitação de Deus no espírito;
+Am    F                C 
+habitação de Deus no espírito.</pre>
+
+			<a href="#" id="hino005" class="hinos--numero">5</a>
+			<div class="hinos--subtitulo">João 15:4</div>
+			<pre>  D         G      D 
+1 Enche o espír'to meu
+            G      D 
+  Enche o espír'to meu
+              A 
+  Até transbordar
+     G         D 
+  Do meu interior
+            G      D 
+  Enche o espír'to meu
+            G      D 
+  Enche o espír'to meu
+              A 
+  Até transbordar
+     G        D 
+  Do meu interior.
+
+      G        D 
+    Enche-me aqui,
+      G          D 
+    Enche, oro a Ti,
+         A 
+    Oh Senhor Jesus,
+    G                D     Bm 
+    Flui como a água viva! 
+         A 
+    Oh Senhor Jesus,
+    G                  D 
+    Jorra como a fonte viva!
+       A         D 
+    Do meu interior.
+
+2 Rompe os grilhões,
+  Rompe os grilhões 
+  Da minha mente, emoção, vontade e coração!
+  Rompe os grilhões,
+  Rompe os grilhões 
+  Da minha mente, emoção, vontade e coração!
+ 
+    Rompe, hoje, aqui
+    Rompe, eu oro a Ti!
+    Oh Senhor Jesus,
+    Flui como a água viva!
+    Oh Senhor Jesus,
+    Jorra como a fonte viva
+    Do meu interior.
+
+3 Flui qual Rio em mim
+  Flui qual Rio em mim
+  Quando eu invocar, orar, clamar e cantar!
+  Flui qual Rio em mim
+  Flui qual Rio em mim
+  Quando eu invocar, orar, clamar e cantar!
+
+    Flui, hoje, aqui
+    Flui, oro a Ti
+    Oh Senhor Jesus,
+    Flui como a água viva!
+    Oh Senhor Jesus,
+    Jorra como a fonte viva!
+    Do meu interior.
+</pre>
+
+			<a href="#" id="hino006" class="hinos--numero">6</a>
+			<pre>  C 
+1 Tão feliz estou
+  F 
+  Com meu Pai aqui
+            G            C   G    C 
+  Perdido estava, mas voltei 
+                 F 
+  Ele me beijou, e me abraçou, 
+  G          G7            C     C7 
+  Sua graça, pois, me alcançou!  
+
+          F       Em 
+    Me perdi, Ele me encontrou!
+          F           G 
+    Antes morto, agora vivo estou!
+           F                  Em 
+    Venham se alegrar, juntos desfrutar!
+    Dm       G           C 
+    Voltei à casa do meu Pai
+
+2 Ele me vestiu, 
+  Deu-me um anel, 
+  Calçou sandálias nos meus pés!
+  Também me saciou
+  E me restaurou!
+  De volta à família estou!
+</pre>
+
+			<a href="#" id="hino007" class="hinos--numero">7</a>
+			<pre>  C 
+1 Cresce a escuridão
+              Em 
+  Duras covas cercam-me;
+      Dm           G7 
+  Vem morte me enlaçar,
+               C 
+  Destruição selou-me aqui.
+    Am 
+  E em angústia eu
+             C 
+  Invoquei o nome Seu:
+    Dm               G7 
+  Ouviu-me a voz, desceu a mim,
+            C 
+  Salvou-me Sua mão.
+
+    Am          C 
+    Eu Te invocarei
+         F          C 
+    Pois me responderás.
+    Dm 
+    Ouve a mim,
+    G7 
+    Peço a Ti:
+                 C 
+    Me guarda em Teu amor.
+
+2 Meu refúgio é Deus,
+  Sou menina do olho Seu.
+  Mi'a rocha, escudo, lar,
+  Mi'a força é Deus, descanso meu;
+  À sombra Sua estou,
+  Nela vou me esconder.
+  Presente está, consolo meu,
+  Me basta Lhe chamar.
+
+3 Deus, eu disso sei:
+  És canção ao coração;
+  Torrente és sem fim
+  Fluindo tal desfrute em mim.
+  Enche-me de Ti,
+  Só Teu ser me satisfaz;
+  Eu quero andar bem junto a Ti,
+  Pois és mi'a salvação</pre>
+
+			<a href="#" id="hino008" class="hinos--numero">8</a>
+			<div class="hinos--subtitulo">Isaías 66:1-2</div>
+			<pre>  E           E7      A7          E 
+Assim diz o Senhor: O céu é o meu trono,
+               C#m            B7 
+e a terra, o estrado dos meus pés;
+    E          E7       A7 
+que casa me edificareis vós?
+  E          B7           E 
+E qual é o lugar do meu repouso?
+
+   E           E7      A7          E 
+Porque a minha mão fez todas estas coisas,
+          C#m        B7 
+e todas vieram a existir, 
+        A7            E 
+diz o Senhor, diz o Senhor,
+
+      E          E7       A7    E 
+mas o homem para quem olharei é este:
+             C#m       B7 
+o aflito e abtido de espírito
+      E          E7       A7    E 
+mas o homem para quem olharei é este:
+             B7      E 
+que treme da minha palavra.
+
+        A7            E7 
+Diz o Senhor, diz o Senhor,
+        A7            E7 
+Diz o Senhor, diz o Senhor.
+</pre>
+
+			<a href="#" id="hino009" class="hinos--numero">9</a>
+			<pre>  D 
+1 Deus deu a liberdade
+  D 
+  Para quem Nele cresse,
+  Bm    A           G     A 
+  Ser escravos? Não mais! 
+  D 
+  Venha a Jesus! Receba
+  D 
+  A vida que liberta!
+  Bm        A          G 
+  Invoque e salvo será!
+
+             D 
+    Este é o ano do jubileu!
+                            Bm 
+    Proclame a liberdade em Deus!
+              G 
+    Ressoe em toda a terra:
+        D 
+    O escravo a Ele retornou
+                                   Bm 
+    Não mais pecado, ansiedade e labor!
+             G         D 
+    Este é o ano do jubileu!
+
+2 De volta à nossa terra
+  Deus, a porção eterna,
+  Já vamos celebrar!
+  Aqui há paz, descanso,
+  Desfrute Dele,
+  pois, com a família de Deus.
+</pre>
+
+			<a href="#" id="hino010" class="hinos--numero">10</a>
+			<pre>  D 
+1 Do coração meu  
+ D5+ 
+  Flui um louvor;
+ D6 
+  É só pra Ele,
+ D7 
+  O meu Senhor:
+  G            A          D     D7 
+  Meu Senhor Jesus, amo a Ti.   
+
+          G 
+    Anelo poder Te cantar
+          A 
+    Com espir'to e coração;
+    F#m 
+    Sei que Tu és rico;
+           B7 
+    No Teu ser, em cada ação.
+    Em                      A 
+    Sempre que retorno e me abro,
+    Bebo a Ti.
+            D 
+    Pois Te amo.
+
+2 Por Tua noiva
+  Tu deste tudo
+  Foste imolado 
+  Cordeiro mudo
+  Meu Senhor Jesus, amo a Ti
+
+3 Sem Teu amor, 
+  Nada é verdade
+  A vida é um sopro;
+  Só vaidade;
+  Meu Senhor Jesus, és real.
+
+4 Jesus em mim. 
+  Que maravilha;
+  E borbulhando,
+  Água viva.
+  Meu Senhor Jesus, que prazer!
+</pre>
+
+			<a href="#" id="hino011" class="hinos--numero">11</a>
+			<div class="hinos--subtitulo">Deuteronômio 8:3</div>
+			<pre>A   D                F#m        E        A 
+Ele me humilhou e deixou-me ter fome.    
+     D         F#m    E 
+E me sustentou  com maná
+A          E         F#m           D 
+Que eu não conhecia, nem meus pais conheciam
+A    D             E 
+para me dar a entender
+
+    F#m    D      A   E 
+que não só de pão viverá
+F#m    D      A   E 
+não só de pão viverá
+F#m D      A      E 
+o homem, mas de tudo o que
+F#m D       E    E7    A 
+procede da boca  do Senhor.
+</pre>
+
+			<a href="#" id="hino012" class="hinos--numero">12</a>
+			<pre>  C           G              Am 
+1 Meu viver é pra Te amar, Senhor;
+  F           G          C 
+  Te amar com todo o meu ser.
+  Em        Am Em          F 
+  Me perdoa se deixei meu amor,
+       Dm             G 
+  O primeiro amor por Ti.
+
+2 És maior que qualquer outro amor
+  És maior que tudo meu aqui.
+  'Té que o ego meu;
+  Noivo Amado meu,
+  Nada se compara a Ti.
+
+       	     Am    Em 
+    Dou-Te a preeminência 
+    F          C 
+    em meu coração,
+        Dm           F          G 
+    Por fé, declaro: nada rouba Teu lugar.
+           F      G     Am         F 
+    Mais e mais infunde Teu ser em mim.
+           C    Am 
+    'Té eu Te encontrar
+    Dm         G     C 
+    Dou-Te o melhor amor
+ 
+ 
+3 O que amo podes retirar, 
+  Mas compensa-me com o Teu ser 
+  Tudo és para mim, dá-me mais de Ti, 
+  Não apenas meu querer.
+   
+4 Tudo certamente passará,
+  Todos em seu próprio rumo vão.
+  Mas eu tenho a Ti; e Tu tens a mim,
+  Oh, quão doce é nosso amor!
+
+CORO
+
+5 Aprecio a sós Contigo estar
+  Pra ganhar o amor que anelas Tu.
+  Ó, Marido meu, vem me atrair
+  Às recâmaras entrar.
+
+6 Sê Tu o primeiro em meu viver,
+  Na mi'a obra e no meu servir,
+  Em mi'as relações, vem prevalecer;
+  Ganha a primazia em mim.
+
+CORO</pre>
+		
+			<a href="#" id="hino013" class="hinos--numero">13</a>
+			<pre>    E            A     B       E 
+    Senhor, hoje supre graça a mim
+            A     B       E 
+    Que Tua vida cresça assim;
+    	  A   B         C#m 
+    Dia-a-dia faz-me, então, crescer,
+    	   A        B 
+    Mais e mais, em Ti.
+
+  A                 G#m 
+1 Dia-a-dia, assim, cresce a vida em mim,
+  F#m                      A     B 
+  Pouco a pouco, enfim, aumenta até que,
+  A                G#m 
+  Sem saber, e nem perceber,
+  F#m       A  B7 
+  Amadureça em mim.
+
+2 Quero só me acalmar, respirar-Te, ó Senhor,
+  Respirar a Tua vida assim,
+  Pois bem sei que, ao respirar,
+  Tua vida me permeia.
+
+3 Possa eu descansar, pois o que Tu me dás
+  Vem suprir o que preciso aqui.
+  O Senhor vem rogar por mim,
+  Um membro do Seu Corpo.
+
+    Senhor, me concede tal visão,
+    Corporativa, celestial;
+    Que eu ore e cresça pouco a pouco em Ti
+    Pra edificar-Me em Ti.
+
+4 Juntos, um Corpo só, ao crescer sem parar,
+  'Té alcançar a plenitude, enfim,
+  Nos transformas e conformas, sim,
+  Num povo que Te expressa. 
+
+    Senhor, hoje supre graça a mim
+    Que Tua vida cresça assim;
+    Dia-a-dia faz-me, então, crescer,
+    Mais e mais, em Ti.
+    
+    Senhor, me concede tal visão,
+    Corporativa, celestial;
+    Que eu ore e cresça pouco a pouco a fim
+    De tornar-me, enfim, a Nova Jerusalém.</pre>
+
+			<a href="#" id="hino014" class="hinos--numero">14</a>
+			<pre>Capo 1
+
+  A              D 
+1 O Cristo em ressurreição
+    A              Bm7   E7 
+  É meu Pastor, em mim está;
+   A            D 
+  Ele é meu, Eu Dele sou,
+    A     Bm7      E7   A 
+  Nada, jamais, me faltará.
+
+2 Nos pastos faz-me repousar,
+  E minha alma satisfaz.
+  Às águas calmas me conduz,
+  Em comunhão, perfeita paz.
+
+3 Se me afastar, me vem buscar,
+  Meu coração vem constranger.
+  Minh'alma vem apascentar
+  Por causa do bom nome Seu.
+
+4 Maravilhosa tal visão;
+  Ao Te buscar vai-se o temor;
+  O Teu cajado e bordão
+  Dão-me consolo e vigor.
+
+5 Tua vitória minha é.
+  Exulto ante meus rivais.
+  Minha cabeça vens ungir,
+  Fazes mi'a taça transbordar.
+
+6 Graça e amor sem fim me dás,
+  Que eu cante sempre o Teu louvor,
+  Na Tua casa, sem cessar,
+  Eternamente, ó Bom Pastor.
+</pre>
+	
+		</div>
+
+	</div>
+
+</body></html>
