@@ -196,21 +196,14 @@ pre {
 	text-align: left;
 	white-space: pre-wrap;
 	margin-bottom: 3em;
-/*	border: 1px solid var(--cor-numero-titulo);*/
 	padding: 0.2em 0.6em;
-/*	font-family: 'Oxygen Mono', monospace;*/
 	font-size: 14px;
 	background-color: transparent;
-/*	border-radius: 5px;*/
 	
+/*	font-family: 'Oxygen Mono', monospace;*/
     font-family: 'Noto Serif JP', serif;
 }
 
-.pre-format {
-
-	background-color: #EAEADC;
-	
-}
 
 .hinos--numero a:visited,
 a:hover,
@@ -370,7 +363,7 @@ body {
 	padding-right: 1.4rem;
 	color: #233A48;
 	letter-spacing: 0.05em;
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 }
 
@@ -412,5 +405,7 @@ body {
 }
 
 .nav--pagina-atual {
-	background-image: linear-gradient(to left, #E5E3C3,var(--cor-fundo));
+	background-image: linear-gradient(to left, rgba(229, 226, 195, 1),rgba(229, 226, 195, 0.6),rgba(229, 226, 195, 0.2),rgba(229, 226, 195, 0));
 }
+
+
